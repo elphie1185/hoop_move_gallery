@@ -2,6 +2,7 @@
 body {
     background-color: #F3F1F5;
     color: #BFA2DB;
+    height: 100%;
 }
 
 h1,
@@ -14,7 +15,7 @@ h3 {
 
 footer {
     background-color: #6F4A8E;
-    color: #F3F1F5
+    color: #F3F1F5;
 }
 
 .navbar-dark {
@@ -43,4 +44,8 @@ footer {
 #homepage-container {
     margin-top: 0px !important;
     margin-bottom: 0px !important;
+}
+
+#footer {
+    margin-top: 0px !important;
 }

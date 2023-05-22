@@ -3,5 +3,6 @@ class PagesController < ApplicationController
   end
 
   def homepage
+    @ideas = Idea.all
   end
 end

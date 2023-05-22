@@ -13,7 +13,7 @@
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
         <% @ideas.each_with_index do |idea, index| %>
-          <div class="carousel-item <%= "active" if index==0 %>">				
+          <div class="carousel-item <%= 'active ' if index==0 %>">				
             <%= image_tag(idea.picture_url, width: 300) %>
           </div>
         <% end %>
