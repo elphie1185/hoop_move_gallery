@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Hoop Moves</h1>
+
+<div id="ideas">
+  <% @ideas.each do |idea| %>
+    <%= render idea %>
+    <p>
+      <%= link_to "Show this hoop move", idea %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New hoop move", new_idea_path %>
